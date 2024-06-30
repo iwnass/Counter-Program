@@ -1,0 +1,60 @@
+body{
+    background-color: lightblue;
+}
+
+#myH1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3.5em;
+    text-align: center;
+}
+
+#countLabel{
+    font-family: helvetica;
+    display: block;
+    text-align: center;
+    font-size: 10em;
+}
+
+#btnContainer{
+    text-align: center;
+}
+
+.decreaseBtn{
+    background-color: rgb(241, 72, 72);
+    padding: 10px 20px;
+    font-size: 1.5em;
+    transition: background-color 0.25s;
+    cursor: pointer;
+    border-radius: 20px;
+    color: white;
+}
+
+.decreaseBtn:hover{
+    background-color: darkred;
+}
+
+.resetBtn{
+    background-color: white;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    transition: background-color 0.25s;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.resetBtn:hover{
+    background-color: grey;
+}
+
+.increaseBtn{
+    background-color: rgb(18, 175, 18);
+    padding: 10px 20px;
+    font-size: 1.5em;
+    transition: background-color 0.25s;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.increaseBtn:hover{
+    background-color: darkgreen;
+}
